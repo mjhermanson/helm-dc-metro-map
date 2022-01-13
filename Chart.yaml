@@ -1,7 +1,7 @@
 apiVersion: v2
-description: A Helm chart to build and deploy Node.js applications
+description: A Helm chart to build the dc-metro-map application
 keywords:
-- runtimes
+- demo
 - nodejs
-name: nodejs
+name: dc-metro-map
 version: 0.0.1
