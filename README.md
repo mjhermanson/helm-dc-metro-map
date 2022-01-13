@@ -1,11 +1,11 @@
 # Dc-metro-map Helm Chart
 A Helm chart for building and deploying a demo application on OpenShift. Based on the official Openshift docs for deploying helm charts. This will build and deploy the app and expose a route.
 
-#Manual Deploy
+# Manual Deploy
 1. git clone this repo
 2. helm install dc-metro-map helm-dc-metro-map --values helm-dc-metro-map/values.yaml
 
-#GitOps
+# GitOps
 TODO: Test deploying this from argoCD
 
 
