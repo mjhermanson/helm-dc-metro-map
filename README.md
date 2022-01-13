@@ -1,22 +1,6 @@
-# Node.js Helm Chart
-A Helm chart for building and deploying a [Node.js](https://nodejs.org/) application on OpenShift.
+# Dc-metro-map Helm Chart
+A Helm chart for building and deploying a demo application on OpenShift. Based on the official Openshift docs for deploying helm charts. This will build and deploy the app and expose a route.
 
-## Prerequisites
-Below are prerequisites that may apply to your use case.
-
-### Push Secret
-You will need to create a push secret if you want to push your image to an external registry. Use the following command as a reference to create your push secret:
-```bash
-oc create secret docker-registry my-push-secret --docker-server=$SERVER_URL --docker-username=$USERNAME --docker-password=$PASSWORD --docker-email=$EMAIL
-```
-
-You can use this secret by passing `--set build.output.pushSecret=my-push-secret` and `--set build.output.kind=DockerImage` to `helm install`, or you can configure these in a values file:
-```yaml
-build:
-  output:
-    kind: DockerImage
-    pushSecret: my-push-secret
-```
 
 ## Values
 This section describes the Values used to configure this chart.
