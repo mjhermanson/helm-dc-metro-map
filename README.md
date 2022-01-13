@@ -3,7 +3,7 @@ A Helm chart for building and deploying a demo application on OpenShift. Based o
 
 #Manual Deploy
 1. git clone this repo
-2. helm install dc-metro-map dc-metro-map-helm --values dc-metro-map-helm/values.yaml
+2. helm install dc-metro-map helm-dc-metro-map --values helm-dc-metro-map/values.yaml
 
 #GitOps
 TODO: Test deploying this from argoCD
